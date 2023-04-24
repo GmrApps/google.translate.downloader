@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+    font-family: Roboto;
+}
+
+.footer-distributed {
+    display: flex;
+    justify-content: center;
+    background: rgba(55, 50, 83, 0.77);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 20px 50px 60px 40px;
+    margin-top: 8px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.footer-company-name {
+    text-align: center;
+    
+}
+
+
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 65px;
+    height: 58px;
+    cursor: pointer;
+    
+    border-radius: 2px;
+
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+
+   
+}
+
+.footer-distributed .footer-icons a:hover {
+    box-shadow: 0 0 2em 1em rgba(255, 255, 255, 0.195), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* responseve way*/
+
+@media (max-width: 1000px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-company-name {
+        font-size: 12px;
+    }
+
+    .footer-distributed form input,
+    .footer-distributed form textarea {
+        width: 250px;
+    }
+
+    .footer-distributed form button {
+        padding: 10px 35px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .footer-distributed {
+        padding: 30px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-distributed .footer-left {
+        margin-bottom: 40px;
+    }
+
+    .footer-distributed form {
+        margin-top: 30px;
+    }
+
+    .footer-distributed form {
+        display: block;
+    }
+
+    .footer-distributed form button {
+        float: none;
+    }
+}
